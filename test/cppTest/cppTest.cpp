@@ -6,10 +6,11 @@
 #include <iostream>
 
 int rationalTest();
+int sysTimerTest();
 
 int main()
 {
-	rationalTest();
+	sysTimerTest();
 	getchar();
 }
 

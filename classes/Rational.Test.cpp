@@ -19,7 +19,7 @@ int rationalTest()
 	cout << " = ";
 	x = c + d;
 	x.printRational();
-
+	
 	cout << '\n';
 	c.printRational();
 	cout << " - ";
@@ -48,27 +48,27 @@ int rationalTest()
 	c.printRational();
 	cout << " is:\n";
 
-	cout << ((c > d) ? "  > " : "  <= ");
+	cout << ((c > d) ? ">" : " <=");
 	d.printRational();
 	cout << " according to the overloaded > operator\n";
 
-	cout << ((c < d) ? "  < " : "  >= ");
+	cout << ((c < d) ? "<" : ">=");
 	d.printRational();
 	cout << " according to the overloaded < operator\n";
 
-	cout << ((c >= d) ? "  >= " : "  < ");
+	cout << ((c >= d) ? ">=" : " < ");
 	d.printRational();
 	cout << " according to the overloaded >= operator\n";
 
-	cout << ((c <= d) ? "  <= " : "  > ");
+	cout << ((c <= d) ? "<=" : ">");
 	d.printRational();
 	cout << " according to the overloaded <= operator\n";
 
-	cout << ((c == d) ? "  == " : "  != ");
+	cout << ((c == d) ? "==" : "!=");
 	d.printRational();
 	cout << " according to the overloaded == operator\n";
 
-	cout << ((c != d) ? "  != " : "  == ");
+	cout << ((c != d) ? " != " : " == ");
 	d.printRational();
 	cout << " according to the overloaded != operator" << endl;
 
